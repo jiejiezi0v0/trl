@@ -117,7 +117,7 @@ def is_vllm_available(min_version: str | None = None) -> bool:
 
 
 def is_vllm_ascend_available() -> bool:
-    return _is_package_available("vllm_ascend")
+    return False
 
 
 def is_weave_available() -> bool:
